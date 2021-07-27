@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <link rel="stylesheet" href="style/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700;900&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <title>Zou Farm</title>
+ </head>
+ <body>
+<!-- header starts -->
+<div class="navbar">
+  <a href="image/logo"><img></a>
+  <a href="#home">Home</a>
+  <a href="#opportunity">Product</a>
+  <a href="#invest-sec">Team</a>
+  <a href="#how-it-works">Blog</a>
+  <a href="#footer">Conatct</a>
+   <a href="#contact" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="left-log">Login</a>
+   <!-- button login -->
+   <div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+</div>
+<!-- header ends -->
+<!-- first section -->
+<section id="home">
+ <div class="main-section">
+  <div class="left-sec">
+   <h1>A New Way to Invest in Agriculture </h1>
+   <div class="">
+    <p>Zou provides farmers ,ranchers ,private foresters and Agricultural procedures with online self service application and educational materials </p>
+    <button type="button" name="button" class="invest-btn-1"> Invest Now</button>
+   </div>
+  </div>
+  <div class="right-sec">
+   <img src="image/hero-image.png" alt="">
+  </div>
+ </div>
+</section>
+<!-- opportunity sec -->
+<section id="opportunity">
+ <div class="container">
+  <div class="title-head">
+   <h2>New opportunity</h2>
+   <p>We are the first and they only crowdfunding platform enabling you to help finance our farmers</p>
+  </div>
+  <div class="main-box">
+   <div class="child-box-1">
+    <div class="card">
+      <img src="image/icon-1.png" alt="Avatar" style="width:30%">
+      <div class="container">
+        <h4><b>Connect With our Farmer</b></h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+   </div>
+   <div class="child-box-1">
+    <div class="card">
+      <img src="image/icon-2.png" alt="Avatar" style="width:55%">
+      <div class="container">
+        <h4><b>Grow your business </b></h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+   </div>
+   <div class="child-box-1">
+    <div class="card">
+      <img src="image/icon-3.png" alt="Avatar" style="width:30%">
+      <div class="container">
+        <h4><b>Social Impact Investment </b></h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+<hr class="opportunity-line">
+<!-- end opportunity section -->
+<section id="invest-sec">
+ <div class="container">
+  <div class="invest-title">
+   <h2>Invest on your convenience</h2>
+   <div class="invest-text">
+    <p>Autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla</p>
+   </div>
+  </div>
+
+  <div class="invest-box">
+   <div class="invest-box-1">
+    <div class="card-1 text-white"><img src="image/feature-1.png" alt="">
+     <div class="card-img-overlay bg-dark-gradient">
+       <h6 class="text-success">NEW FARM TODAY</h6>
+       <hr class="text-white" style="height:0.12rem;width:2.813rem">
+       <div class="pt-lg-3">
+         <h6 class="text-1">Short terms investment</h6>
+         <p class="">Invest in farms that will be ready for harvest in 3-18 months</p><button class="btn-invest text-success" type="button">Browse Farm</button>
+       </div>
+     </div>
+    </div>
+   </div>
+   <div class="invest-box-2">
+    <div class="card-1 text-white"><img src="image/feature-2.png" alt="">
+     <div class="card-img-overlay bg-dark-gradient">
+       <h6 class="text-success">NEW FARM TODAY</h6>
+       <hr class="text-white" style="height:0.12rem;width:2.813rem">
+       <div class="pt-lg-3">
+         <h6 class="text-1">Short terms investment</h6>
+         <p class="">Invest in farms that will be ready for harvest in 3-18 months</p><button class="btn-invest text-success" type="button">Learn More</button>
+       </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+<!-- opportunity ends -->
+<!-- works section -->
+<section id="how-it-works">
+ <div class="bg-image">
+  <div class="work-text">
+   <h3>How It Works</h3>
+   <p>Take your pick from the supply chain and participate in agribusiness projects that are backed up not only by Zou, but also by the best land, family heritage, innovation and overall superior expertise.</p>
+  </div>
+  <div class="rental-manager-progress-bar-container">
+  <div class="active">1</div>
+  <div class="active">2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>4</div>
+  <div>4</div>
+ </div>
+ <div class="line-text">
+  <div class="">
+   <p><b>Select your farmshare and complete reservation form here.</b></p>
+  </div>
+  <div class="">
+   <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere</p>
+  </div>
+ </div>
+</section>
+<!-- invest button -->
+<section id="invest-btn">
+ <div class="container">
+  <div class="farm-invest">
+   <div class="invest-1">
+    <h2>The Future of <span class="text-colour">Farm Investing </span>is zou </h2>
+    <button type="button" name="button" class="invest-btn">Invest Now </button>
+   </div>
+  </div>
+ </div>
+
+</section>
+<!-- footer starts -->
+<section id="footer">
+ <div class="container">
+  <div class="footer-box">
+   <div class="footer-1">
+     <h4> Company </h4>
+     <ul>
+      <li><a href="">About us</a></li>
+      <li><a href="">Team</a></li>
+      <li><a href="">Carrers</a></li>
+      <li><a href="">Contact</a></li>
+     </ul>
+   </div>
+   <div class="footer-2">
+    <h4>Invest</h4>
+    <ul>
+     <li><a href="">Features</a></li>
+     <li><a href="">How It Works</a></li>
+     <li><a href="">Pricing</a></li>
+     <li><a href="">Login</a></li>
+    </ul>
+   </div>
+   <div class="footer-3">
+     <h4>Leagal</h4>
+     <ul>
+      <li><a href=""> Privacy </a></li>
+      <li><a href="">Terms</a></li>
+      <li><a href="">Security</a></li>
+     </ul>
+   </div>
+   <div class="footer-4">
+    <div class="footer-zou">
+     <p><b>Blog Zou</b></p>
+     <p>Write email to us</p>
+     <p>@zaufarm.com</p>
+     <button type="button" name="button"> Sign In</button>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+<script type="text/javascript">
+ var modal = document.getElementById('id01');
+ window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+ }
+ </body>
+ </script>
+</html>

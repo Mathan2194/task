@@ -1,0 +1,518 @@
+body {
+ /* margin:0; */
+  font-family: 'Chivo';
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  /* padding: 0; */
+}
+.navbar {
+  overflow: hidden;
+  background-color: #3333330f;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+a.left-log {
+ float: right;
+ border: 3px solid #fff;
+ height: 16px;
+ width: 48px;
+ padding: 14px;
+ margin-right: 18px;
+ margin-top: 8px;
+}
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.main-section{
+ display: flex;
+ flex-direction: row;
+}
+/* nav ends */
+.left-sec{
+ width: 50%;
+ margin: 204px 0 0 14px
+}
+.left-sec h1{
+ font-size: 44px;
+}
+.left-sec p{
+ font-size: 17px;
+}
+.right-sec{
+ width: 50%;
+}
+.right-sec img{
+ max-width: 100%;
+}
+.invest-btn-1{
+ border: 1px solid;
+ border-radius: 7px;
+ height: 38px;
+ font-size: 23px;
+ background-color: #408d55;
+ color: #fff;
+ padding: 3px;
+ margin-top: 50px;
+ width: 19%;
+}
+.title-head h2{
+ font-size: 30px;
+ text-align: center;
+}
+.title-head p{
+ font-size: 24px;
+ text-align: center;
+}
+.card p:hover{
+ color: #fff;
+}
+.invest-btn{
+ border: 1px solid;
+ border-radius: 7px;
+ height: 38px;
+ font-size: 23px;
+ background-color: #408d55;
+ color: #fff;
+ padding: 3px;
+ margin-top: 50px;
+ width: 19%;
+}
+.opportunity-line{
+ width: 100%;
+ height: 4px;
+ color: #E1E0E4;
+}
+.invest-text{
+ width: 50%;
+}
+.main-box{
+ display: flex;
+ flex-direction: row;
+}
+.child-box-1{
+ width: 33.33%;
+ padding: 16px;
+}
+.card img{
+ padding: 14px 10px;
+}
+.card {
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ transition: 0.3s;
+ /* width: 40%; */
+ border-radius: 5px;
+}
+.card:hover{
+ background-color: #66bb6a;
+ color: #fff;
+}
+.card p{
+ color: #1f1c1ca8;
+}
+.card:hover {
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+img {
+ border-radius: 5px 5px 0 0;
+}
+
+/* .container {
+  padding: 2px 38px;
+} */
+.invest-box{
+ display: flex;
+ flex-direction: row;
+}
+.invest-box-1{
+ width: 40%;
+ margin: auto;
+
+}
+.invest-box-2{
+ width: 40%;
+ margin: auto;
+}
+.card-1 img{
+ max-width: 95%;
+ opacity: .8;
+}
+.card-1{
+ position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid rgba(0,0,0,0.125);
+  border-radius: .25rem;
+}
+.card-img-overlay{
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+padding: 1rem;
+border-radius: .25rem;
+}
+.text-success {
+ color: #66BB6A;
+ font-size: 20px;
+}
+.text-1{
+ font-size: 20px;
+ color: #fff;
+}
+.btn-invest{
+ width: 50%;
+ color: #66BB6A;
+ font-size: 20px;
+ background-color: #fff;
+}
+.invest-title{
+ padding-left: 67px;
+}
+.invest-text{
+ padding-left: 3px;
+}
+.card-1 p{
+ font-size: 17px;
+ color: #fff;
+}
+hr {
+  margin: 1rem 0;
+  color: #E1E0E4;
+  background-color: currentColor;
+  border: 0;
+  opacity: 1;
+}
+.bg-image{
+ background-image: url('../image/banner.png');
+ background-position: center bottom;
+ background-size: cover;
+}
+.work-text{
+ text-align: center;
+ padding-top: 120px;
+}
+.work-text p{
+ text-align: center;
+ width: 55%;
+ font-size: 18px;
+ color: #ffff;
+ margin: 0 auto;
+ margin-bottom: 130px;
+}
+.work-text h3{
+ color: #fff;
+ font-size: 32px;
+}
+.line-text{
+ padding-bottom: 80px;
+ display: flex;
+ margin: 0 auto;
+ width: 72%;
+ color: #fff;
+}
+.invest-1{
+ box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+ height: 186px;
+ padding-top: 5rem !important;
+ padding-bottom: 3rem !important;
+ margin-left: 60px;
+ margin-right: 60px;
+ margin-bottom: 120px;
+}
+.farm-invest{
+ text-align: center;
+}
+.text-colour{
+ color: green;
+}
+.footer-box{
+ display: flex;
+ margin-left: 50px;
+ flex-direction: row;
+}
+.footer-1{
+ width: 25.55%
+}
+.footer-2{
+ width: 25.55%;
+}
+.footer-3{
+ width: 25.55%;
+}
+.footer-zou{
+ border: 1px solid #63b167;
+padding: 20px;
+background-color: #63b167;
+}
+.footer{
+
+ width: 25.55%;
+}
+/* lines */
+.rental-manager-progress-bar-container {
+ width: 77%;
+display: flex;
+justify-content: space-between;
+border-top: 4px solid #fff;
+padding-top: 15px;
+margin-top: 55px;
+margin: 0 auto;
+padding-bottom: 120px
+}
+.active{
+  background-color: #fff !important;
+}
+
+.rental-manager-progress-bar-container div {
+  background-color: #024a92;
+  font-weight: bold;
+  color: #7ea5cc;
+  border: 2px solid #024a92;
+  margin-top: -45px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  z-index: 99;
+}
+ul{
+ list-style-type: none;
+ margin: 0 auto;
+ padding: 0px;
+}
+/* button style */
+input[type=text], input[type=password] {
+  width: 95%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 30%;
+  margin-right: 10px;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  /* background-color: #474e5d; */
+  padding-top: 0px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* media query for mobile screen */
+@media (min-width: 320px) and (max-width: 480px) {
+ .main-section{
+  flex-direction: column;
+ }
+ .right-sec img{
+  width: 100%;
+ }
+ .right-sec{
+  width: 100%;
+ }
+ .left-sec{
+  width: 100%;
+  margin: 38px 0 0 14px;
+ }
+ .main-box{
+  flex-direction: column;
+ }
+ .child-box-1{
+  width: 100%;
+ }
+ .invest-text{
+  width: auto;
+ }
+ .invest-box{
+  flex-direction: column;
+ }
+ .footer-box{
+  flex-direction: column;
+ }
+ .invest-box-1{
+  width: auto;
+  margin-bottom: 10px;
+ }
+ .invest-box-2{
+  width: auto;
+ }
+ .card-img-overlay{
+      padding: 0rem 1rem;
+ }
+ .card-1{
+  flex-direction: column;
+ }
+ .text-1{
+  margin: 0 auto;
+  padding: 0;
+ }
+ .text-success{
+  margin: 0 auto;
+  padding: 4px;
+ }
+ .invest-1{
+  margin-left: 22px;
+  margin-right: 22px
+ }
+ .invest-btn{
+  margin-top: 9px;
+  width: auto;
+ }
+ .invest-btn-1{
+  width: auto;
+  margin-top:5px;
+ }
+ .rental-manager-progress-bar-container div{
+  margin-top: -39px;
+  width: 36px;
+  height: 36px;
+  line-height: 40px;
+ }
+}
+/* tablet screens */
+@media (min-width: 720px) and (max-width: 1024px) and (orientation: landscape) {
+ /* .invest-box{
+  flex-direction: column;
+ } */
+ /* .invest-box-1{
+  width: auto;
+  margin-bottom: 10px;
+ } */
+ /* .invest-box-2{
+  width: auto;
+  margin-bottom: 10px;
+ } */
+ .text-success{
+  margin: 0 auto;
+  padding: 0px;
+  font-size: 18px;
+ }
+ .card-1 p{
+  font-size: 14px;
+ }
+ .text-1{
+  margin: 0 auto;
+  padding: 0;
+  font-size: 17px;
+ }
+ .btn-invest{
+  font-size: 19px;
+  width: 48%;
+ }
+ .left-sec{
+   margin: 106px 0 0 14px;
+ }
+ .invest-btn-1{
+  font-size: 18px;
+  width: 40%;
+ }
+ .invest-btn{
+  font-size: 18px;
+  width: 40%;
+ }
+}
